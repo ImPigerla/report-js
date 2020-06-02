@@ -1,0 +1,31 @@
+{
+  "name": "@pigerla/report-js",
+  "version": "1.0.0",
+  "description": "js打点上报，与业务无关的方法库（npm包）",
+  "main": "dist/report.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.prod.config.js",
+    "watch": "webpack --config build/webpack.prod.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ImPigerla/report-js.git"
+  },
+  "keywords": [
+    "web",
+    "report",
+    "js"
+  ],
+  "author": "wujj",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-merge": "^4.1.4"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Report Testing</title>
+  </head>
+  <body>
+    <p>简单的检验页面，请打开浏览器 - 开发工具 - 查看请求</p>
+    <script type="text/javascript" src="../dist/report.min.js"></script>
+    <script type="text/javascript">
+      report = new Report({
+        aaaa: 111,
+        appid: 111
+      }, {
+        url: '' // 这里配置服务器接收数据的地址，否则上报不了
+      })
+      report.send({aaaa: 222, appid: 2222})
+    </script>
+  </body>
+</html>
