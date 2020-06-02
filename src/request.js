@@ -12,15 +12,5 @@ export default function request (url, data) {
   }
 
   const img = window.document.createElement('img');
-  // const body = window.document.body;
-
-  // 不可见
-  // img.style.display = 'none';
   img.src = `${url}?${params(data)}`
-
-  // body.appendChild(img);
-
-  // window.setTimeout(function () {
-  //   body.removeChild(img)
-  // }, 50)
 }
