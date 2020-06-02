@@ -66,9 +66,9 @@ Report.getCookie('cookie的name')
 ```bash
 data：上报的数据，可为空对象
 options：配置项，url字段必填，即服务器接收数据的地址；
-  {
-    url: '服务器接收数据的地址'
-  }
+{
+  url: '服务器接收数据的地址'
+}
 ```
   
   
