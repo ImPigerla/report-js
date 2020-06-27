@@ -1,6 +1,6 @@
 {
   "name": "@pigerla/report-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js打点上报，与业务无关的方法库（npm包）",
   "main": "dist/report.min.js",
   "scripts": {
